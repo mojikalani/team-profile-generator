@@ -9,7 +9,7 @@ const generateManager = function (manager) {
             </div>
             <div class="card-body">
                 <p class="id">ID: ${manager.id}</p>
-                <p class="email">Email: <a href="mailto:${manager.email}">${manager.email}</a></p>
+                <p class="email">Email: ${manager.email}</p>
                 <p class="office">Office Number: ${manager.officeNumber}</p>
             </div>
         </div>
@@ -27,7 +27,7 @@ const generateEngineer = function (engineer) {
             </div>
             <div class="card-body">
                 <p class="id">ID: ${engineer.id}</p>
-                <p class="email">Email: <a href="mailto:${engineer.email}">${engineer.email}</a></p>
+                <p class="email">Email: ${engineer.email}</p>
                 <p class="github">Github: <a href="https://github.com/${engineer.github}">${engineer.github}</a></p>
             </div>
         </div>
@@ -45,7 +45,7 @@ const generateIntern = function (intern) {
             </div>
             <div class="card-body">
                 <p class="id">ID: ${intern.id}</p>
-                <p class="email">Email:<a href="mailto:${intern.email}">${intern.email}</a></p>
+                <p class="email">Email: ${intern.email}</p>
                 <p class="school">School: ${intern.school}</p>
             </div>
     </div>
@@ -98,7 +98,7 @@ const generateTeamPage = function (teamCards) {
       <title>Team Generator</title>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" 
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="./style.css">
   </head>
   <body>
       <header>

@@ -1,0 +1,15 @@
+nav { 
+    background-color: rgb(161, 80, 80);
+    color: white;
+}
+
+.card-header { 
+    background-color: rgb(161, 80, 80);
+}
+body { 
+    background-color: beige;
+}
+
+h3, h4 { 
+    color: white;
+}
