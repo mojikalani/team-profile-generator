@@ -4,4 +4,5 @@
 
 ![Picture](Assets/demo.png)
 ![Gif](Assets/demogif.gif)
-Assets\teamProfileDemo.mp4
+
+https://youtu.be/AiGQHIsyrSo
