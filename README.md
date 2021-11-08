@@ -4,3 +4,4 @@
 
 ![Picture](Assets/demo.png)
 ![Gif](Assets/demogif.gif)
+Assets\teamProfileDemo.mp4
